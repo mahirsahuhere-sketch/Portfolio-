@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07090d">
+  <meta name="description" content="Mahir Jaiswal — Web Developer">
+  <title>Mahir Jaiswal | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="header">
+    <a class="brand" href="#home"><span class="brand-icon">M<span>.</span></span> MAHIR JAISWAL</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="availability"><i></i> OPEN TO LEARNING & OPPORTUNITIES</div>
+          <p class="mono intro">HELLO, WORLD! I'M</p>
+          <h1>Mahir<br>Jaiswal<span class="neon">.</span></h1>
+          <h2>Web Developer<span class="cursor">_</span></h2>
+          <p class="hero-text">I turn ideas into clean, engaging digital experiences — one line of code at a time.</p>
+          <div class="actions">
+            <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-foot mono"><span>BASED IN INDIA</span><b></b><span>CREATIVE DEVELOPER</span></div>
+        </div>
+        <div class="visual" aria-label="Abstract neon green orbit graphic">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+          <div class="visual-core"><span>M</span><i></i></div>
+          <span class="visual-note note-a">DESIGN<br>THINK<br>BUILD</span>
+          <span class="visual-note note-b"><i></i> ALWAYS IN BETA</span>
+          <span class="cross cross-a">+</span><span class="cross cross-b">+</span>
+        </div>
+      </div>
+      <a class="scroll mono" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section content-section" id="about">
+      <div class="section-label mono"><span>01 / ABOUT</span><i></i></div>
+      <div class="about-grid">
+        <h2 class="section-title">Curious mind.<br><span>Creative code.</span></h2>
+        <div class="about-copy">
+          <p class="lead">I'm Mahir, a web developer who enjoys building things for the internet.</p>
+          <p>I'm passionate about technology, thoughtful design and solving problems through code. I'm always exploring new tools, sharpening my skills and turning what I learn into practical projects.</p>
+          <a class="inline-link" href="#contact">LET'S BUILD SOMETHING <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-label mono"><span>02 / TOOLKIT</span><i></i></div>
+      <div class="section-head"><h2 class="section-title">My current <span>toolkit.</span></h2><p>Learning, experimenting and improving every day.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><small>01</small><div class="skill-symbol">&lt;/&gt;</div><h3>HTML</h3><p>Semantic structure and accessible content.</p><div class="card-line"></div></article>
+        <article class="skill-card"><small>02</small><div class="skill-symbol">✳</div><h3>CSS</h3><p>Responsive layouts and visual styling.</p><div class="card-line"></div></article>
+        <article class="skill-card"><small>03</small><div class="skill-symbol python">Py</div><h3>Python</h3><p>Programming fundamentals and logic.</p><div class="card-line"></div></article>
+        <article class="skill-card"><small>04</small><div class="skill-symbol js">JS</div><h3>JavaScript</h3><p>Interactive and dynamic experiences.</p><div class="card-line"></div></article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-label mono"><span>03 / SELECTED WORK</span><i></i></div>
+      <div class="section-head project-head"><h2 class="section-title">Ideas into <span>reality.</span></h2><p>Starter concepts — replace these with your own completed projects.</p></div>
+      <div class="projects">
+        <article class="project">
+          <div class="project-art art-one"><small>01 / WEB CONCEPT</small><div class="mock-window"><div class="mock-top">● &nbsp; ● &nbsp; ●</div><div class="mock-copy">MAKE<br><strong>IT MATTER.</strong></div><div class="mock-underline"></div></div></div>
+          <div class="project-details"><div><small>HTML · CSS · RESPONSIVE DESIGN</small><h3>Creative Landing Page</h3><p>A bold landing page concept focused on clarity and visual impact.</p></div><span>↗</span></div>
+        </article>
+        <article class="project">
+          <div class="project-art art-two"><small>02 / CODE CONCEPT</small><div class="code-window"><span>const</span> future = <b>"build it"</b>;<br><span>function</span> create() {<br>&nbsp; return future;<br>}</div><div class="glow-ball"></div></div>
+          <div class="project-details"><div><small>JAVASCRIPT · UI INTERACTION</small><h3>Interactive Web Experience</h3><p>A concept exploring small interactions and engaging interface details.</p></div><span>↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section contact-inner">
+        <div class="section-label mono"><span>04 / CONTACT</span><i></i></div>
+        <p class="mono contact-kicker">HAVE AN IDEA?</p>
+        <h2>Let's make<br>it <span>happen.</span></h2>
+        <p class="contact-text">Have a project, an opportunity or just want to say hello? Let's connect.</p>
+        <!-- Replace this placeholder with your real email address. -->
+        <a class="button primary email-button" href="mailto:your.email@example.com">mahirsahuhere@gmail.com <span>↗</span></a>
+        <footer class="footer mono"><span>MAHIR JAISWAL © <b id="year"></b></span><a href="#home">BACK TO TOP ↑</a><span>BUILT WITH CURIOSITY</span></footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
